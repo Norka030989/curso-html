@@ -131,7 +131,7 @@
 				</div>
 			</section>
 			<section id="contactenos" class="seccion">
-				<iframe width="520" height="400" frameborder="0"  src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20Lima+(peru)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+				<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=oruro%20bolivia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" ></iframe>
 				<div class="container-fluid">
 					<div class="row">
 						<div class="columna columna-41 columna-mobile-100 empujar-58 empujar-mobile-0 sinpadding-mobile">
@@ -162,10 +162,10 @@
 											{
 												if(isset($mensaje))
 												{
-													$para = ""; //colocar aqui el correo a dodne quieres que llegue
+													$para = "preciosa030989@hotmail.com"; //colocar aqui el correo a dodne quieres que llegue
 													$asunto = "Esto es una prueba";
 													$cuerpo = $nombre."\n".$email."\n".$mensaje;
-													$adicional = "From: noreply@jacoboamaru.com";
+													$adicional = "From: preciosa@gmail.com";
 
 													mail($para,$asunto,$cuerpo,$adicional);
 												?>
@@ -208,9 +208,9 @@
 							Datos de contcto
 						</h3>
 						<ul>
-							<li>jacobo.amaru@gmail.com</li>
-							<li>+51987654321</li>
-							<li>Av. universitaria 2345 - Pueblo Libre<br>Lima - Perú</li>
+							<li>ailin250517@gmail.com</li>
+							<li>68305868</li>
+							<li>Final San Felipe NO.924 y Camacho<br>Oruro- Bolivia</li>
 						</ul>
 					</div>
 					<div class="columna columna-25 columna-mobile-100">
